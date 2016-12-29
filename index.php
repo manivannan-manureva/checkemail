@@ -3,9 +3,9 @@
 require_once('smtp_validateEmail.class.php');
 
 // the email to validate
-$email = 'yogucloud545@gmail.com';
+$email = 'user@example.com';
 // an optional sender
-$sender = 'manivannan.g@manurevasolutions.com';
+$sender = 'user@mydomain.com';
 // instantiate the class
 $SMTP_Validator = new SMTP_validateEmail();
 // turn on debugging if you want to view the SMTP transaction
